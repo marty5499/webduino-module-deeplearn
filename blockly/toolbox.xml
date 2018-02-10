@@ -1,34 +1,8 @@
-<category id="catAFRAME" tags="fly,smart">
+<category id="catDEEPLEARN" tags="fly,smart,mark1">
     <block type="variables_set">
-        <field name="VAR">aframe</field>
+        <field name="VAR">deeplearn</field>
         <value name="VALUE">
-            <block type="aframe_new">
-            </block>
-        </value>
-    </block>
-    <block type="variables_set">
-        <field name="VAR">entity</field>
-        <value name="VALUE">
-            <block type="entity_new">
-            </block>
-        </value>
-    </block>
-    <block type="aframe_add">
-    </block>
-    <block type="entity_pos">
-        <value name="px">
-            <block type="math_number">
-                <field name="NUM">1</field>
-            </block>
-        </value>
-        <value name="py">
-            <block type="math_number">
-                <field name="NUM">1</field>
-            </block>
-        </value>
-        <value name="pz">
-            <block type="math_number">
-                <field name="NUM">1</field>
+            <block type="deeplearn_new">
             </block>
         </value>
     </block>

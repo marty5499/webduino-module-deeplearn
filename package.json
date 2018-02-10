@@ -10,7 +10,7 @@
   },
   "scripts": {
     "start": "http-server -S -C ../cert.pem -K ../key.pem -o --cors",
-    "build": "browserify main.js -o build.js"
+    "build": "browserify main.js -o deeplearn.js;cat _deeplearn.js >> deeplearn.js"
   },
   "pre-commit": [
     "build"
