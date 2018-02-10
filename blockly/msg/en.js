@@ -1,1 +1,1 @@
-MSG.catAFRAME = "aframe";
+MSG.catDEEPLEARN = "deeplearn";
