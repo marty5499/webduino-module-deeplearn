@@ -1,4 +1,4 @@
-<category id="catDeeplearn" tags="fly,smart" index="5">
+<category id="catDeeplearn">
   <block type="variables_set">
     <field name="VAR">deeplearn</field>
     <value name="VALUE">
