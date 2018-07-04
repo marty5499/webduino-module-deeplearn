@@ -1,6 +1,6 @@
 {
-  "types": ["deeplearn_classifier"],
-  "category": "catPlus",
+  "types": ["deeplearn_classifier","deeplearn_label"],
+  "category": "toolbox",
   "scripts": [
     "blockly/blocks.js",
     "blockly/javascript.js"
