@@ -1,9 +1,4 @@
-<category id="catDEEPLEARN" tags="fly,smart,mark1">
-    <block type="variables_set">
-        <field name="VAR">deeplearn</field>
-        <value name="VALUE">
-            <block type="deeplearn_new">
-            </block>
-        </value>
-    </block>
+<category id="catDeeplearn" tags="fly,smart" index="5">
+  <block type="deeplearn_classifier">
+  </block>
 </category>

@@ -1,5 +1,6 @@
-// 
-Blockly.JavaScript['deeplearn_new'] = function(block) {
-    var code = 'getDeeplearn("demo-area-01-show")';
-    return [code, Blockly.JavaScript.ORDER_FUNCTION_CALL];
+Blockly.JavaScript['deeplearn_classifier'] = function (block) {
+  var text_modelurl = block.getFieldValue('modelURL');
+  var text_cameraurl = block.getFieldValue('cameraURL');
+  var code = 'getDeeplearn("' + text_modelurl + '","' + text_cameraurl + '");\n';
+  return code;
 };

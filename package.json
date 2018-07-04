@@ -1,43 +1,20 @@
 {
-  "name": "webduino-module-deepLearn",
-  "version": "0.1.0",
-  "license": "",
-  "dependencies": {
-    "deeplearn": "^0.3.12",
-    "deeplearn-knn-image-classifier": "^0.2.0",
-    "pre-commit": "^1.2.2",
-    "webduino-js": "0.x"
-  },
+  "name": "webduino-module-deeplearn",
+  "version": "1.0.0",
+  "description": "Deepleran Module for Webduino",
+  "main": "deeplearn.js",
   "scripts": {
-    "start": "http-server -S -C ../cert.pem -K ../key.pem -o --cors",
-    "build": "browserify main.js -o deeplearn.js;cat _deeplearn.js >> deeplearn.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "pre-commit": [
-    "build"
+  "author": "",
+  "license": "MIT",
+  "keywords": [
+    "arduino",
+    "webduino",
+    "deeplearn"
   ],
-  "browserify": {
-    "transform": [
-      [
-        "babelify",
-        {
-          "presets": [
-            "es2015"
-          ],
-          "plugins": [
-            "syntax-async-functions",
-            "transform-regenerator"
-          ]
-        }
-      ]
-    ]
-  },
-  "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
-    "babel-plugin-syntax-async-functions": "^6.13.0",
-    "babel-plugin-transform-regenerator": "^6.26.0",
-    "babel-preset-es2015": "^6.24.1",
-    "babelify": "^8.0.0",
-    "budo": "^10.0.4"
+  "dependencies": {
+    "webduino-js": "0.x"
   }
 }
+

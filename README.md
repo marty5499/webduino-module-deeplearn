@@ -1,12 +1,14 @@
-# webduino-module-deeplearn
+# webduino-module-lcd1602
 
-Webduino Module for deeplearn.
+Webduino Module for LCD1602.
 
+LCD1602 is a character type liquid crystal display, which can display 32 (16*2) characters at
+the same time.
 
 ## Installation
 
 ```shell
-bower install https://github.com/webduinoio/webduino-module-deeplearn.git
+bower install https://github.com/webduinoio/webduino-module-lcd1602.git
 ```
 
 ## License

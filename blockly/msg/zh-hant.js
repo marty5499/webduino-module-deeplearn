@@ -1,1 +1,1 @@
-MSG.catDEEPLEARN = "deeplearn";
+MSG.catDeeplearn = "影像辨識";

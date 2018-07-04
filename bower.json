@@ -1,6 +1,6 @@
 {
   "name": "webduino-module-deeplearn",
-  "description": "deeplearn Module for Webduino",
+  "description": "Deeplearn Module for Webduino",
   "main": "deeplearn.js",
   "authors": "",
   "license": "MIT",
