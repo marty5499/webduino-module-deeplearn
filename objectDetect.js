@@ -10,7 +10,7 @@
   var proto;
   var Module = scope.Module;
   var libURL = 'https://marty5499.github.io/webduino-module-deeplearn';
-  libURL = "https://127.0.0.1:8080";
+  //libURL = "https://127.0.0.1:8080";
 
   objectDetect.prototype = proto =
     Object.create(Module.prototype, {
