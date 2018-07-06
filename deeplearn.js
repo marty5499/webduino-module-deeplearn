@@ -23,7 +23,7 @@
   }
 
 
-  function deeplearn(modelURL, cameraURL) {
+  function deeplearn(cameraURL, modelURL) {
     Module.call(this);
     loadJS('https://marty5499.github.io/webduino-module-deeplearn/videoClassifier.js');
     console.log("create deeplearn...");
@@ -89,8 +89,6 @@
       };
     });
   }
-
-
 
   scope.module.deeplearn = deeplearn;
 }));
