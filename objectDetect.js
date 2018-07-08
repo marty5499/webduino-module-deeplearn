@@ -38,7 +38,7 @@
     loadJS(libURL + '/yolo.js');
     this.names = {};
     this.srcCanvas = this.createCanvas('c2', true, 416, 416);
-    this.canvasBox = this.createCanvas('c3', false, 320, 240);
+    this.canvasBox = this.createCanvas('c3', false, 416, 416);
     (async function () {
       const model = await tf.loadModel(libURL + '/tfjs-model/model.json');
       new Camera(cameraURL).onCanvas(self.srcCanvas.id, function (canvas) {
