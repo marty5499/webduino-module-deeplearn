@@ -1,3 +1,9 @@
+Blockly.JavaScript['deeplearn_camera'] = function (block) {
+  var text_cameraurl = block.getFieldValue('cameraURL');
+  var code = 'new Camera("' + text_cameraurl + '")';
+  return [code, Blockly.JavaScript.ORDER_ATOMIC];
+};
+
 Blockly.JavaScript['deeplearn_classifier'] = function (block) {
   var text_cameraurl = block.getFieldValue('cameraURL');
   var text_modelurl = block.getFieldValue('modelURL');

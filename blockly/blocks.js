@@ -1,4 +1,16 @@
 //https: //blockly-demo.appspot.com/static/demos/blockfactory_old/index.html#ckpupe
+Blockly.Blocks['deeplearn_camera'] = {
+  init: function () {
+    this.appendDummyInput()
+      .appendField("影像串流來源 :")
+      .appendField(new Blockly.FieldTextInput("0"), "cameraURL");
+    this.setOutput(true, null);
+    this.setColour(230);
+    this.setTooltip('');
+    this.setHelpUrl('https://webduino.io/');
+  }
+};
+
 Blockly.Blocks['deeplearn_classifier'] = {
   init: function () {
     this.appendDummyInput()
@@ -6,11 +18,11 @@ Blockly.Blocks['deeplearn_classifier'] = {
       .appendField(new Blockly.FieldTextInput("ws://192.168.43.204:8889/rws/ws"), "cameraURL");
     this.appendDummyInput()
       .appendField("載入模型 URL:")
-      .appendField(new Blockly.FieldTextInput("http://codegen:3000/download/model-1530722287793/model.json"), "modelURL");
+      .appendField(new Blockly.FieldTextInput("https://aiot.webduino.cc/download/model-1530722287793/model.json"), "modelURL");
     this.setOutput(true, null);
     this.setColour(230);
     this.setTooltip('');
-    this.setHelpUrl('https://webduino.io/');
+    this.setHelpUrl('https://aiot.webduino.cc/videoTraining.html');
   }
 };
 
@@ -29,7 +41,7 @@ Blockly.Blocks['deeplearn_label'] = {
     this.setNextStatement(true, null);
     this.setColour(75);
     this.setTooltip('');
-    this.setHelpUrl('https://webduino.io/');
+    this.setHelpUrl('https://aiot.webduino.cc/videoTraining.html');
   }
 };
 

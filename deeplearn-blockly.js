@@ -10,4 +10,5 @@
     return new webduino.module.objectDetect(cameraURL, modelURL);
   };
 
+  
 }(window, window.webduino));

@@ -1,4 +1,13 @@
 <category id="catDeeplearn">
+  <!--
+  <block type="variables_set">
+    <field name="VAR">camera</field>
+    <value name="VALUE">
+      <block type="deeplearn_camera">
+      </block>
+    </value>
+  </block>
+  -->
   <block type="variables_set">
     <field name="VAR">imageClassifier</field>
     <value name="VALUE">
