@@ -98,6 +98,8 @@
     };
   }
 
+  proto.filter = "";
+
   proto.drawBoxes = function (srcCanvas, boxes) {
     var self = this;
     var ctx = this.canvasBox.getContext("2d");
@@ -112,7 +114,9 @@
         classProb,
         className,
       } = box;
-      self.drawRect(ctx, left, top, right - left, bottom - top, `${className}`, `${classProb}`);
+      if (self.filter.length == 0 || self.filter.indexOf(className) >= 0) {
+        self.drawRect(ctx, left, top, right - left, bottom - top, `${className}`, `${classProb}`);
+      }
     });
   }
 
