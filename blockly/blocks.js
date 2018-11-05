@@ -50,7 +50,7 @@ Blockly.Blocks['deeplearn_objectDetect'] = {
   init: function () {
     this.appendDummyInput()
       .appendField("影像串流來源 :")
-      .appendField(new Blockly.FieldTextInput("1"), "cameraURL");
+      .appendField(new Blockly.FieldTextInput("0"), "cameraURL");
     this.appendDummyInput()
       .appendField("載入模型 URL:")
       .appendField(new Blockly.FieldTextInput("/tfjs-model/model.json"), "modelURL");
